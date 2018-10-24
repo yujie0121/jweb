@@ -1,4 +1,4 @@
-package tech.yujie.jweb;
+package tech.yujie.jweb.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
