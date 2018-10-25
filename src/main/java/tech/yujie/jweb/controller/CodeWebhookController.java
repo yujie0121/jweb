@@ -18,7 +18,7 @@ public class CodeWebhookController {
     public String hook(@RequestBody String body) {
         System.out.println(body);
         new Thread(this::excuteShell).start();
-        return body;
+        return "ok";
     }
 
     private void excuteShell() {
